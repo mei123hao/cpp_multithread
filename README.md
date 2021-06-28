@@ -2,7 +2,7 @@
 ## [day1](https://github.com/mei123hao/cpp_multithread/blob/master/test1/README.md)：
 * 并发，进程，线程等基本概念
 * 线程启动，结束和创建线程的方法
-## day2:
+## [day2](https://github.com/mei123hao/cpp_multithread/blob/master/test2/README.md):
 * detach()相关的一些坑
 ## day3:
 ...
