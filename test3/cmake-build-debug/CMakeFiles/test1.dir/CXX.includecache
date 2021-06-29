@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/cpp/multithread/test3/main_3.cpp
+iostream
+E:/cpp/multithread/test3/iostream
+vector
+E:/cpp/multithread/test3/vector
+thread
+E:/cpp/multithread/test3/thread
+list
+E:/cpp/multithread/test3/list
+
