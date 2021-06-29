@@ -27,16 +27,16 @@ int main() {
 }
 ```
 对于变量mvar，debug过程中发现其地址为：[0x00...062fd38]
-![image](picture/debug_1.png)
+![image](picture/debug_1.png)  
 线程函数中，传入参数变量i的地址为：[0x00...0721fa0]
-![image](picture/debug_2.png)
+![image](picture/debug_2.png)  
 两者的地址并不相同，所以用detach的时候，并不存在主线程执行完毕，主线程变量被清除，
 但是子线程还在访问同一片内存地址的不安全情况
 
 对于变量myBuf的地址，debug过程中其地址为:[0x00...062fd29]
-![image](picture/debug_3.png)
+![image](picture/debug_3.png)  
 对于变量*pmyBuf的地址，debug过程中发现其地址为：[0x00...062fd29]
-![image](picture/debug_4.png)
+![image](picture/debug_4.png)  
 与myBuf的地址相同，所以存在主线程使用detach的时候，主线程完毕，变量被清除，子线程
 还在访问同一片内存的不安全情况
 
