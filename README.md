@@ -9,3 +9,5 @@
 * 数据共享问题及案例
 ## [day4](https://github.com/mei123hao/cpp_multithread/blob/master/test4/README.md):
 * 互斥量概念，用法，死锁演示及解决详解
+## [day5](https://github.com/mei123hao/cpp_multithread/blob/master/test5/README.md):
+* unique_lock详解
